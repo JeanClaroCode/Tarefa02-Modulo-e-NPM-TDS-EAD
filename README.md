@@ -1,6 +1,9 @@
 # Atividade - Módulos, NPM e Webpack com Node.js
 
 Este repositório contém as respostas para a atividade de Módulos, NPM e Webpack com Node.js.
+TDS EAD - Aluno: Jean Claro 
+
+![exemplo](https://meusite.com/imagem.png)
 
 ## Estrutura do Projeto
 
@@ -52,8 +55,8 @@ Este repositório contém as respostas para a atividade de Módulos, NPM e Webpa
 
 1. Clone o repositório
 \`\`\`bash
-git clone [URL do seu repositório]
-cd [nome-do-repo]
+git clone https://github.com/JeanClaroCode/Tarefa02-Modulo-e-NPM-TDS-EAD.git
+cd Tarefa02-Modulo-e-NPM-TDS-EAD
 \`\`\`
 
 2. Instale as dependências

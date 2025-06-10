@@ -66,7 +66,7 @@ eval("\nvar clean = __webpack_require__(/*! to-no-case */ \"./node_modules/to-no
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/utils.js\");\n\r\n\r\ndocument.getElementById('btn').addEventListener('click', () => {\r\n    const input = document.getElementById('txt').value;\r\n    const result = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.transformText)(input);\r\n    document.getElementById('result').innerText = result;\r\n});\r\n\n\n//# sourceURL=webpack://modulo-npm-demo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/utils.js\");\n\r\n\r\ndocument.getElementById('btn').addEventListener('click', () => {\r\n    const input = document.getElementById('txt').value;\r\n    const result = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.transformText)(input);\r\n    const formattedResult = `\r\n        Texto Original: ${input}\r\n        \r\n        Space Case: ${result.spaceCase}\r\n        Capital Case: ${result.capitalCase}\r\n        Constant Case: ${result.constantCase}\r\n    `;\r\n    document.getElementById('result').innerText = formattedResult;\r\n});\r\n\n\n//# sourceURL=webpack://modulo-npm-demo/./src/index.js?");
 
 /***/ }),
 
