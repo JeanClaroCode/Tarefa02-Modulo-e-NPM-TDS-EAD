@@ -3,7 +3,7 @@
 Este repositório contém as respostas para a atividade de Módulos, NPM e Webpack com Node.js.
 TDS EAD - Aluno: Jean Claro 
 
-![exemplo](https://meusite.com/imagem.png)
+![exemplo](https://i.imgur.com/Nyuvrx1.png)
 
 ## Estrutura do Projeto
 
@@ -54,32 +54,32 @@ TDS EAD - Aluno: Jean Claro
 ## Como Testar
 
 1. Clone o repositório
-\`\`\`bash
+```bash
 git clone https://github.com/JeanClaroCode/Tarefa02-Modulo-e-NPM-TDS-EAD.git
 cd Tarefa02-Modulo-e-NPM-TDS-EAD
-\`\`\`
+```
 
 2. Instale as dependências
-\`\`\`bash
+``` bash
 npm install
-\`\`\`
+```
 
 3. Execute os diferentes exemplos:
 
 - Para testar o módulo Node.js básico:
-\`\`\`bash
+``` bash
 npm start
-\`\`\`
+```
 
 - Para testar as transformações de texto:
-\`\`\`bash
+``` bash
 npm test
-\`\`\`
+```
 
 - Para construir o projeto Webpack:
-\`\`\`bash
+``` bash
 npm run build
-\`\`\`
+```
 
 4. Para testar a interface web:
    - Abra `webpack.html` no navegador após executar `npm run build`
