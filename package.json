@@ -1,0 +1,20 @@
+{
+    "version":  "1.0.0",
+    "name":  "modulo-npm-demo",
+    "description":  "Demo de modulos NPM",
+    "scripts":  {
+                    "start":  "node index.js",
+                    "build":  "webpack",
+                    "test":  "node cases.js"
+                },
+    "dependencies":  {
+                         "to-capital-case":  "^1.0.0",
+                         "to-space-case":  "^1.0.0",
+                         "to-constant-case":  "^1.0.0"
+                     },
+    "devDependencies":  {
+                            "webpack":  "^5.88.0",
+                            "webpack-cli":  "^5.1.4"
+                        },
+    "main":  "index.js"
+}
